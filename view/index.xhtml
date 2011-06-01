@@ -1,0 +1,5 @@
+<ul data-role="listview">
+  <?r @routes.each do |route| ?>
+    <li><a href="/show/#{route.id}">#{route.name}</a></li>
+  <?r end ?>
+</ul>
